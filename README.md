@@ -206,7 +206,7 @@ rm: cannot remove 'silence_ms=1500.yaml': Device or resource busy (it's load-bea
 
 <p align="center"><sub>↓ oncall.sh lives below this line. Spoilers ahead if you scroll instead of clicking. ↓</sub></p>
 
-<img src="assets/spacer.svg" width="1" height="1400" alt=""/>
+<img src="assets/spacer.svg" width="1" height="300" alt=""/>
 
 <!-- ============================== INCIDENT ============================== -->
 
@@ -235,7 +235,7 @@ trace 7f3a91 ──────────────────────�
 <img src="assets/win/statusbar-pager.svg" width="100%" alt=""/>
 
 
-<img src="assets/spacer.svg" width="1" height="1400" alt=""/>
+<img src="assets/spacer.svg" width="1" height="300" alt=""/>
 
 <a name="inc-scale"></a>
 
@@ -256,7 +256,7 @@ The GPUs were never the bottleneck. Finance is going to notice this one.
 <img src="assets/win/statusbar-pager.svg" width="100%" alt=""/>
 
 
-<img src="assets/spacer.svg" width="1" height="1400" alt=""/>
+<img src="assets/spacer.svg" width="1" height="300" alt=""/>
 
 <a name="inc-smaller"></a>
 
@@ -277,7 +277,7 @@ It's faster, but "reschedule my appointment" now routes to *cancel*. You're stil
 <img src="assets/win/statusbar-pager.svg" width="100%" alt=""/>
 
 
-<img src="assets/spacer.svg" width="1" height="1400" alt=""/>
+<img src="assets/spacer.svg" width="1" height="300" alt=""/>
 
 <a name="inc-vad"></a>
 
@@ -302,7 +302,7 @@ Every single turn pays 1.5 s of silence before STT even finalizes.
 <img src="assets/win/statusbar-pager.svg" width="100%" alt=""/>
 
 
-<img src="assets/spacer.svg" width="1" height="1400" alt=""/>
+<img src="assets/spacer.svg" width="1" height="300" alt=""/>
 
 <a name="inc-cutoff"></a>
 
@@ -328,7 +328,7 @@ Latency dropped, but the bot now cuts people off mid-thought. A pause isn't the 
 <img src="assets/win/statusbar-pager.svg" width="100%" alt=""/>
 
 
-<img src="assets/spacer.svg" width="1" height="1400" alt=""/>
+<img src="assets/spacer.svg" width="1" height="300" alt=""/>
 
 <a name="inc-adaptive"></a>
 
@@ -372,7 +372,7 @@ Nobody gets interrupted, but 2.3 s is still almost double the SLO. Look at the s
 <img src="assets/win/statusbar-pager.svg" width="100%" alt=""/>
 
 
-<img src="assets/spacer.svg" width="1" height="1400" alt=""/>
+<img src="assets/spacer.svg" width="1" height="300" alt=""/>
 
 <a name="inc-cache"></a>
 
@@ -393,7 +393,7 @@ That helps with greetings and fillers, but most replies are unique. The real cos
 <img src="assets/win/statusbar-pager.svg" width="100%" alt=""/>
 
 
-<img src="assets/spacer.svg" width="1" height="1400" alt=""/>
+<img src="assets/spacer.svg" width="1" height="300" alt=""/>
 
 <a name="inc-stream"></a>
 
@@ -445,7 +445,7 @@ p95 latency      2.31 s → 1.04 s   ✅ under SLO
 <img src="assets/win/statusbar-pager.svg" width="100%" alt=""/>
 
 
-<img src="assets/spacer.svg" width="1" height="1400" alt=""/>
+<img src="assets/spacer.svg" width="1" height="300" alt=""/>
 
 <a name="inc-resolved"></a>
 
@@ -467,7 +467,7 @@ time to fix     74 min
 2. **Fix:** semantic endpointing, then streaming with a speculative LLM start.
 3. **Lesson:** read the trace before buying hardware.
 
-This incident was made up and simplified, but the problems are real ones I've worked on. At Emitrr I cut transcription latency on a live voice pipeline by 30%, rebuilt the TTS path, and built an agent that recovers when a call goes sideways.
+This incident was made up and simplified, but the problems are real ones I've worked on. At Emitrr I cut transcription latency on a live voice pipeline by 30%, rebuilt the TTS path, and built an agent[...]
 
 <p align="center">
   <a href="#desktop"><img src="https://img.shields.io/badge/🖥️_Back_to_the_desktop-30363d?style=for-the-badge" alt="Back to the desktop"/></a>
@@ -478,4 +478,6 @@ This incident was made up and simplified, but the problems are real ones I've wo
 <img src="assets/win/statusbar-pager.svg" width="100%" alt=""/>
 
 
-<img src="assets/spacer.svg" width="1" height="1400" alt=""/>
+<img src="assets/spacer.svg" width="1" height="300" alt=""/>
+
+
