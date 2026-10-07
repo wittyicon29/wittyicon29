@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="26" viewBox="0 0 880 26" role="img" aria-label="✕ close window · back to desktop">
+  <rect x="0.5" y="0.5" width="879" height="25" rx="6" fill="#161b22" stroke="#30363d"/>
+  <text x="14" y="17" style="font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;font-size:11px;fill:#8b949e">wittyOS</text>
+  <text x="866" y="17" text-anchor="end" style="font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;font-size:11px;fill:#58a6ff">✕ close window · back to desktop</text>
+</svg>

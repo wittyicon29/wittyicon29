@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="34" viewBox="0 0 880 34" role="img" aria-label="tail -f /var/log/deploys.log">
+  <rect x="0.5" y="0.5" width="879" height="33" rx="8" fill="#161b22" stroke="#30363d"/>
+  <circle cx="20" cy="17" r="6" fill="#f85149"/><circle cx="40" cy="17" r="6" fill="#F7B32B"/><circle cx="60" cy="17" r="6" fill="#3fb950"/>
+  <text x="440" y="22" text-anchor="middle" style="font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;font-size:13px;fill:#8b949e">tail -f /var/log/deploys.log</text>
+</svg>

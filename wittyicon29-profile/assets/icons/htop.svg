@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="110" viewBox="0 0 100 110" role="img" aria-label="htop">
+  <style>
+    .pulse { animation: pulse 1.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+    .blink { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .meter { transform-box: fill-box; transform-origin: bottom; animation: meter 1.4s ease-in-out infinite; }
+    @keyframes meter { 0%, 100% { transform: scaleY(0.3); } 50% { transform: scaleY(1); } }
+    @media (prefers-reduced-motion: reduce) { .pulse, .blink, .meter { animation: none; } }
+  </style>
+  <rect x="1" y="1" width="98" height="108" rx="14" fill="#161b22" stroke="#30363d"/>
+  <rect x="16" y="14" width="68" height="54" rx="7" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+    <rect class="meter" style="animation-delay:-0.2s" x="26" y="30" width="8" height="30" rx="2" fill="#3fb950"/>
+    <rect class="meter" style="animation-delay:-0.6s" x="39" y="30" width="8" height="30" rx="2" fill="#3FB9A6"/>
+    <rect class="meter" style="animation-delay:-0.9s" x="52" y="30" width="8" height="30" rx="2" fill="#A371F7"/>
+    <rect class="meter" style="animation-delay:-0.4s" x="65" y="30" width="8" height="30" rx="2" fill="#F7B32B"/>
+    <path d="M24 22h52" stroke="#30363d" stroke-width="2"/>
+  <text x="50" y="96" text-anchor="middle" style="font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;font-size:12px;fill:#e6edf3">htop</text>
+</svg>

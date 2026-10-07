@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="110" viewBox="0 0 100 110" role="img" aria-label="deploys.log">
+  <style>
+    .pulse { animation: pulse 1.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+    .blink { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .meter { transform-box: fill-box; transform-origin: bottom; animation: meter 1.4s ease-in-out infinite; }
+    @keyframes meter { 0%, 100% { transform: scaleY(0.3); } 50% { transform: scaleY(1); } }
+    @media (prefers-reduced-motion: reduce) { .pulse, .blink, .meter { animation: none; } }
+  </style>
+  <rect x="1" y="1" width="98" height="108" rx="14" fill="#161b22" stroke="#30363d"/>
+  <path d="M26 12h34l16 16v40a4 4 0 0 1-4 4H26a4 4 0 0 1-4-4V16a4 4 0 0 1 4-4z" fill="#d0d7de"/>
+    <path d="M60 12v16h16" fill="#afb8c1"/>
+    <path d="M31 38h36M31 46h30M31 54h36M31 62h22" stroke="#6e7781" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="70" cy="64" r="7" fill="#3fb950" stroke="#161b22" stroke-width="2.5" class="pulse"/>
+  <text x="50" y="96" text-anchor="middle" style="font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;font-size:12px;fill:#e6edf3">deploys.log</text>
+</svg>
