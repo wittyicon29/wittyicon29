@@ -149,7 +149,13 @@ atharva@wittyos:~$ apt list --installed
 <img src="assets/win/logs.svg" width="100%" alt="tail -f /var/log/deploys.log"/>
 
 <!-- RECENT_ACTIVITY:START -->
-_This window is updated daily by a GitHub Action._
+```log
+2026-09-23 17:22  [deploy]  neetcode-submissions         My NeetCode.io problem submissions
+2026-09-01 15:21  [deploy]  portfolio                    Personal portfolio website
+2026-02-28 14:25  [deploy]  guardtheweights              GuardTheWeights is an adversarial LLM game where a langua...
+2026-02-21 13:37  [deploy]  DSA                          Some problems of leetcode on various techniques and conce...
+2025-05-05 12:05  [deploy]  CreditScoreAI
+```
 <!-- RECENT_ACTIVITY:END -->
 
 
