@@ -150,11 +150,11 @@ atharva@wittyos:~$ apt list --installed
 
 <!-- RECENT_ACTIVITY:START -->
 ```log
-2026-11-16 08:35  [deploy]  job-digest
 2026-11-14 07:17  [deploy]  luna-cycle-health
 2026-10-25 14:44  [deploy]  Loan-dilenquency-Prediction
 2026-10-07 14:49  [deploy]  portfolio                    Personal portfolio website
 2026-09-23 17:22  [deploy]  neetcode-submissions         My NeetCode.io problem submissions
+2026-02-28 14:25  [deploy]  guardtheweights              GuardTheWeights is an adversarial LLM game where a langua...
 ```
 <!-- RECENT_ACTIVITY:END -->
 
